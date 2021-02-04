@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reparación de Bicicletas en Zumaia </title>
+    <meta charset = "utf-8"/>
+    <meta name = "description" content="Reparación de bicicletas en Zumaia y alrededores. Ofrezco dos tipos de reparación">
+    <meta name = "author" content="Angel Patricio Olivares Espinosa">
+    <meta name = "keywords" content = "Reparación de bicicletas, Mecánico de bicicletas, Zumaia, Taller de bicicletas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div id="page-wrapper">
+
+      <header id="header">
+          <h1 class="page_tittle">Reparación de Bicicletas </h1>
+        
+  
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#quienSoy">¿Quién soy?</a></li>
+            <li><a class="nav-link" href="#reparaciones">Reparaciones</a></li>
+            <li><a class="nav-link" href="#contacto">Contácto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container"></div>
+
+      <section id="hero">
+        <h1>Reparación de Bicicletas en Zumaia y Alrededores</h1>
+      </section>
+
+  <div class="container">
+      <section id="quienSoy">
+        <h2>¿Quien soy?</h2>
+        <p>Mi nombre es Angel y me gustan las bicicletas y repararlas! 
+          Soy autodidacta y casi todo lo que he aprendido ha sido ya sea por manuales, 
+          tutoriales y consejos de otros "manitas". Cuento con distintas herramientas 
+          para hacer la mayoría de los trabajos necesario par el mantenimiento o renovación
+          de tu bicicleta. Mi meta con este proyecto es ofrecer a las personas una oportunidad 
+          para revalorar sus bicicletas, ya sea dandoles vida nueva o manteniendo la calidad que
+          se merecen. El uso de la bicicleta como medio de transporte es saludable, eficaz, económico
+          y respetuoso con el medio ambiente, asi que espero poder ayudarte a reparar tu bicicleta! </p>
+      </section>
+    
+      <section id="reparaciones">
+        <div class="product">
+          <div class="level">Tenor Básica</div>
+          <h2>€30</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product">
+          <div class="level">Reparación Completa</div>
+          <h2>€80</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <section id="contacto">
+        <div class="container">
+          <div class="form-header">
+            <h1 id="title" class="text-center">Formulario de Contácto Para Reparación de Bicicleta</h1>
+            <p id="description" class="description text-center">
+              Rellenar este formulario me ayudará a entender cómo te puedo ayudar. Gracias!
+            </p>
+          </div>
+          <form id="survey-form">
+            <div class="form-group">
+              <label id="name-label" for="name">Nombre</label>
+              <input type="text" name="name" id="name" class="form-control" placeholder="Escribe tu nombre" required />
+            </div>
+            <div class="form-group">
+              <label id="email-label" for="email">E-mail</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Escribe tu e-mail" required />
+            </div>
+            <div class="form-group">
+              <label id="number" for="number">Teléfono móvil:</label>
+              <input type="number" name="tel" id="number-label" min="00000000" max="99999999" class="form-control" placeholder="00000000" required />
+            </div>
+            <div class="form-group">
+              <p>¿Que reparación necesitas?</p>
+              <select id="dropdown" name="role" class="form-control" required>
+                <option disabled selected value>Selecciona una</option>
+                <option value="básica">Básica</option>
+                <option value="completa">Avanzada</option>
+                <option value="otra">Otra</option>
+                <option value="nolose">No lo se...Ayuda!</option>
+              </select>
+            </div>
+  
+            <div class="form-group">
+              <p>¿Donde quieres que reciba la bicicleta?</p>
+              <label>
+                <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked />En mi domicilio</label><input type="text" name="name" id="name" class="form-control" placeholder="Escribe tu dirección" />
+              <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio" />Otro</label><input type="text" name="name" id="name" class="form-control" placeholder="Escribe la dirección" />
+              <label><input name="user-recommend" value="maybe" type="radio" class="input-radio" />En el taller (Zumaia)</label>
+  
+            </div>
+  
+            <div class="form-group">
+              <p>
+                ¿Qué crees que necesita reparación en tu bicicleta?
+                <span class="clue">(Selecciona todo lo que creas conveniente)</span>
+              </p>
+  
+              <label><input name="prefer" value="neumáticos" type="checkbox" class="input-checkbox" />Presión en neumáticos</label>
+              <label>
+                <input name="prefer" value="alineación" type="checkbox" class="input-checkbox" />Alineación de ruedas</label>
+              <label><input name="prefer" value="cambios" type="checkbox" class="input-checkbox" />Ajustar cambios</label>
+              <label><input name="prefer" value="frenos" type="checkbox" class="input-checkbox" />Ajustar frenos</label>
+              <label><input name="prefer" value="rodamientos" type="checkbox" class="input-checkbox" />Rodamientos y ejes</label>
+              <label><input name="prefer" value="incomodidad" type="checkbox" class="input-checkbox" />Es incómoda</label>
+  
+            </div>
+  
+            <div class="form-group">
+              <p>Decribe el o los problemas que tiene tu bicicleta:</p>
+              <textarea id="comments" class="input-textarea" name="comment" placeholder="Descríbelo aquí..."></textarea>
+            </div>
+  
+            <div class="form-group">
+              <button type="submit" id="submit" class="submit-button">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </body>
+  </div>
