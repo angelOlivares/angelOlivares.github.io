@@ -1,142 +1,209 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Reparación de Bicicletas en Zumaia </title>
-    <meta charset = "utf-8"/>
-    <meta name = "description" content="Reparación de bicicletas en Zumaia y alrededores. Ofrezco dos tipos de reparación">
-    <meta name = "author" content="Angel Patricio Olivares Espinosa">
-    <meta name = "keywords" content = "Reparación de bicicletas, Mecánico de bicicletas, Zumaia, Taller de bicicletas">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-  <div id="page-wrapper">
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+  rel="stylesheet"
+/>
+<!-- START NAV -->
 
-      <header id="header">
-          <h1 class="page_tittle">Reparación de Bicicletas </h1>
-        
-  
-        <nav id="nav-bar">
-          <ul>
-            <li><a class="nav-link" href="#quienSoy">¿Quién soy?</a></li>
-            <li><a class="nav-link" href="#reparaciones">Reparaciones</a></li>
-            <li><a class="nav-link" href="#contacto">Contácto</a></li>
-          </ul>
-        </nav>
-      </header>
+<nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li>
+      <a href="#welcome-section">About</a>
+    </li>
+    <li>
+      <a href="#projects">Work</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</nav>
 
-      <div class="container"></div>
+<!-- END NAV -->
 
-      <section id="hero">
-        <h1>Reparación de Bicicletas en Zumaia y Alrededores</h1>
-      </section>
+<!-- START WELCOME SECTION -->
 
-  <div class="container">
-      <section id="quienSoy">
-        <h2>¿Quien soy?</h2>
-        <p>Mi nombre es Angel y me gustan las bicicletas y repararlas! 
-          Soy autodidacta y casi todo lo que he aprendido ha sido ya sea por manuales, 
-          tutoriales y consejos de otros "manitas". Cuento con distintas herramientas 
-          para hacer la mayoría de los trabajos necesario par el mantenimiento o renovación
-          de tu bicicleta. Mi meta con este proyecto es ofrecer a las personas una oportunidad 
-          para revalorar sus bicicletas, ya sea dandoles vida nueva o manteniendo la calidad que
-          se merecen. El uso de la bicicleta como medio de transporte es saludable, eficaz, económico
-          y respetuoso con el medio ambiente, asi que espero poder ayudarte a reparar tu bicicleta! </p>
-      </section>
-    
-      <section id="reparaciones">
-        <div class="product">
-          <div class="level">Tenor Básica</div>
-          <h2>€30</h2>
-          <ol>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum dolor.</li>
-            <li>Lorem ipsum.</li>
-          </ol>
-          <button class="btn">Select</button>
-        </div>
-        <div class="product">
-          <div class="level">Reparación Completa</div>
-          <h2>€80</h2>
-          <ol>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum dolor.</li>
-            <li>Lorem ipsum.</li>
-          </ol>
-          <button class="btn">Select</button>
-        </div>
-      </section>
-      <section id="contacto">
-        <div class="container">
-          <div class="form-header">
-            <h1 id="title" class="text-center">Formulario de Contácto Para Reparación de Bicicleta</h1>
-            <p id="description" class="description text-center">
-              Rellenar este formulario me ayudará a entender cómo te puedo ayudar. Gracias!
-            </p>
-          </div>
-          <form id="survey-form">
-            <div class="form-group">
-              <label id="name-label" for="name">Nombre</label>
-              <input type="text" name="name" id="name" class="form-control" placeholder="Escribe tu nombre" required />
-            </div>
-            <div class="form-group">
-              <label id="email-label" for="email">E-mail</label>
-              <input type="email" name="email" id="email" class="form-control" placeholder="Escribe tu e-mail" required />
-            </div>
-            <div class="form-group">
-              <label id="number" for="number">Teléfono móvil:</label>
-              <input type="number" name="tel" id="number-label" min="00000000" max="99999999" class="form-control" placeholder="00000000" required />
-            </div>
-            <div class="form-group">
-              <p>¿Que reparación necesitas?</p>
-              <select id="dropdown" name="role" class="form-control" required>
-                <option disabled selected value>Selecciona una</option>
-                <option value="básica">Básica</option>
-                <option value="completa">Avanzada</option>
-                <option value="otra">Otra</option>
-                <option value="nolose">No lo se...Ayuda!</option>
-              </select>
-            </div>
-  
-            <div class="form-group">
-              <p>¿Donde quieres que reciba la bicicleta?</p>
-              <label>
-                <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked />En mi domicilio</label><input type="text" name="name" id="name" class="form-control" placeholder="Escribe tu dirección" />
-              <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio" />Otro</label><input type="text" name="name" id="name" class="form-control" placeholder="Escribe la dirección" />
-              <label><input name="user-recommend" value="maybe" type="radio" class="input-radio" />En el taller (Zumaia)</label>
-  
-            </div>
-  
-            <div class="form-group">
-              <p>
-                ¿Qué crees que necesita reparación en tu bicicleta?
-                <span class="clue">(Selecciona todo lo que creas conveniente)</span>
-              </p>
-  
-              <label><input name="prefer" value="neumáticos" type="checkbox" class="input-checkbox" />Presión en neumáticos</label>
-              <label>
-                <input name="prefer" value="alineación" type="checkbox" class="input-checkbox" />Alineación de ruedas</label>
-              <label><input name="prefer" value="cambios" type="checkbox" class="input-checkbox" />Ajustar cambios</label>
-              <label><input name="prefer" value="frenos" type="checkbox" class="input-checkbox" />Ajustar frenos</label>
-              <label><input name="prefer" value="rodamientos" type="checkbox" class="input-checkbox" />Rodamientos y ejes</label>
-              <label><input name="prefer" value="incomodidad" type="checkbox" class="input-checkbox" />Es incómoda</label>
-  
-            </div>
-  
-            <div class="form-group">
-              <p>Decribe el o los problemas que tiene tu bicicleta:</p>
-              <textarea id="comments" class="input-textarea" name="comment" placeholder="Descríbelo aquí..."></textarea>
-            </div>
-  
-            <div class="form-group">
-              <button type="submit" id="submit" class="submit-button">
-                Enviar
-              </button>
-            </div>
-          </form>
-        </div>
-      </section>
-    </body>
+<section id="welcome-section" class="welcome-section">
+  <h1>Hey I am Mimic</h1>
+  <p>a web developer</p>
+</section>
+
+<!-- END WELCOME SECTION -->
+
+<!-- START PROJECTS SECTION -->
+
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header">These are some of my projects</h2>
+
+  <div class="projects-grid">
+    <a
+      href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Tribute Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://codepen.io/freeCodeCamp/full/qRZeGZ"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Random Quote Machine
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://codepen.io/freeCodeCamp/full/wgGVVX"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        JavaScript Calculator
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://codepen.io/freeCodeCamp/full/mVEJag"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Map Data Across the Globe
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://codepen.io/freeCodeCamp/full/wGqEga"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Wikipedia Viewer
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://codepen.io/freeCodeCamp/full/KzXQgy"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Tic Tac Toe Game
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
   </div>
+
+  <a
+    href="https://codepen.io/FreeCodeCamp/"
+    class="btn btn-show-all"
+    target="_blank"
+    >Show all<i class="fas fa-chevron-right"></i
+  ></a>
+</section>
+
+<!-- END PROJECTS SECTION -->
+
+<!-- START CONTACT SECTION -->
+
+<section id="contact" class="contact-section">
+  <div class="contact-section-header">
+    <h2>Let's work together...</h2>
+    <p>How do you take your coffee?</p>
+  </div>
+  <div class="contact-links">
+    <a
+      href="https://facebook.com/freecodecamp"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-facebook-square"></i> Facebook</a
+    >
+    <a
+      id="profile-link"
+      href="https://github.com/freecodecamp"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-github"></i> GitHub</a
+    >
+    <a
+      href="https://twitter.com/freecodecamp"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-twitter"></i> Twitter</a
+    >
+    <a href="mailto:example@example.com" class="btn contact-details"
+      ><i class="fas fa-at"></i> Send a mail</a
+    >
+    <a href="tel:555-555-5555" class="btn contact-details"
+      ><i class="fas fa-mobile-alt"></i> Call me</a
+    >
+  </div>
+</section>
+
+<!-- END CONTACT SECTION -->
+
+<!-- START FOOTER SECTION -->
+
+<footer>
+  <p>
+    **This is just a fake portfolio. All the projects and contact details given
+    are not real.
+  </p>
+  <p>
+    &copy; Created for
+    <a href="https://www.freecodecamp.com/" target="_blank"
+      >freeCodeCamp <i class="fab fa-free-code-camp"></i
+    ></a>
+  </p>
+</footer>
+
+<!-- END FOOTER SECTION -->
